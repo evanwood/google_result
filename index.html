@@ -2,24 +2,58 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="main.css">
 		<title>Search Results</title>
 	</head>
 	<body>
-		<div>
-			<div>
-			<a href="http://www.google.com"><img src="https://www.google.com/images/srpr/logo11w.png" id="logo"></a>
+		<div class="hdr">
 			<form>
-				<input type="text" name="search" id="search">
+				<a href="http://www.google.com"><img src="https://www.google.com/images/srpr/logo11w.png" id="logo"></a>				
+				<input type="text" name="search" id="search" value="build a website">
+				<img src="images/mag.png" id="mag">
 			</form>
-
-			</div>
-			<nav>
-				<img src="images/boxes.png">
-				<span><a href="#" id="sign_in">Sign in</a></span>
+			<nav class="floatr">
+				<img src="images/boxes.png" id="boxes">
+				<a href="#" id="sign_in">Sign in</a>
 			</nav>
 		</div>
-		
+		<div class="second-nav">
+			<ul>
+				<li id="active"><a href="#">Web</a></li>
+				<li><a href="#">Videos</a></li>
+				<li><a href="#">Books</a></li>
+				<li><a href="#">Images</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">More</a></li>
+				<li><a href="#" id="search_tools">Search tools</a></li>
+			</ul>
+			<div class="floatr"><a href="#" id="settings_box"><span class="gear"></span></a></div>
+		</div>
+		<div class="results">
+			<p class="about">About 3,530,000,000 results (0.41 seconds)<p>
+				<div class="listing">
+					<a href="#" class="top-link">2015 Build A Website - Top10WebBuilders.com‎‎</a>
+					<p class="site"><span class="ad">Ad</span>www.top10best<b>website</b>builders.com/‎</p>
+					<p class="desc">Top 10 Best Free Website Builders. Build Your Own Free Website.</p>
+				</div>
+				<div class="listing">
+					<a href="#" class="top-link">Build A Website For Free - WebsiteBuilderTop10.com‎</a>
+					<p class="site"><span class="ad">Ad</span>www.websitebuildertop10.com/Build-Site‎</p>
+					<p class="desc">Top 10 Best Free Website Builders. Build Your Own Free Website.</p>
+				</div>
+				<div class="listing">
+					<a href="#" class="top-link">Build Your Own Website - wix.com‎</a>
+					<p class="site"><span class="ad">Ad</span>www.wix.com/build-your-own-website‎</p>
+					<p class="desc">100s of Templates to Choose From. Fast, Easy, Drag & Drop Web Builder</p>
+				</div>
+				<div class="listing">
+					<a href="#" class="top-link">Build Your Own Website - wix.com‎</a>
+					<p class="site">www.wix.com/build-your-own-website‎</p>
+					<p class="desc">100s of Templates to Choose From. Fast, Easy, Drag & Drop Web Builder</p>
+					<p class="sublink"><a href="#" class="sublink" >Templates</a> - <a href="#" class="sublink">Premium Plan</a> - <a href="#" class="sublink">Contact Us</a> - <a href="#" class="sublink">Support Center</a></p>
+				</div>
+		</div>
 	</body>
 		
 </html>
