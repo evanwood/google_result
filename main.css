@@ -2,6 +2,7 @@ body {
 	font-family: Arial, sans-serif;
 	font-size: 13px;
 }
+
 a {
 	text-decoration: none;
 	font-family: arial,sans-serif;
@@ -183,8 +184,9 @@ form {
 	position: relative;
 	margin-left: 135px;
 	font-family: Arial, sans-serif;
-	max-width: 525px;
+	width: 525px;
 	border-bottom: 1px solid #e4e4e4;
+
 }
 
 .about {
@@ -261,7 +263,7 @@ form {
 	width: 525px;
 }
 .extra table {
-	margin: 20px auto;
+	margin: 30px auto;
 }
 
 .extra td {
@@ -315,6 +317,44 @@ form {
 	padding-bottom: 10px;
 }
 
+.ftr {
+	border-top: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+	overflow: hidden;
+	width: 100%;
+	height: 58px;
+	padding-top: 24px;
+	min-width: 1000px;
+}
 
+.ftr .top {
+	margin-left: 135px;
+}
+
+.ftr p {	
+	color: #aaa;
+}
+
+#locator {
+	display: inline-block;
+	margin: 0 6px 0 0;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #aaa;
+}
+
+.ftr nav {
+	line-height: 50px;	
+}
+
+.ftr nav a {
+	vertical-align: middle;
+	margin-right: 27px;
+}
+
+.top a:hover {
+	text-decoration: none;
+	color: #000000;
+}
 
 
