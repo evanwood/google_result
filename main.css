@@ -1,3 +1,7 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
 a {
 	text-decoration: none;
 	font-family: arial,sans-serif;
@@ -231,21 +235,84 @@ form {
 .related {
 	color: #666;
 	font-size: 18px;
-	line-height: 45px;
+	line-height: 50px;
 	font-weight: normal;
 }
 
-td {
+.alt_search td {
 	height: 25px;
 	width: 200px;
 	vertical-align: top;
 }
 
-td a{
+.alt_search td a{
 	font-family: arial, sans-serif;
 	color: #1a0dab;
 	font-size: 13px;
 	font-weight: normal;
+}
+
+.alt_search {
+	margin-bottom: 10px;
+}
+
+.extra {
+	margin-left: 135px;
+	width: 525px;
+}
+.extra table {
+	margin: 20px auto;
+}
+
+.extra td {
+	text-align: center;
+}
+
+.extra a {
+	color: #1a0dab;
+}
+
+.extra td:nth-child(2) {
+	color: #000;
+	font-weight: bold
+}
+
+.extra td:nth-child(12) {
+	text-align: right;
+	font-weight: bold;
+}
+
+
+.navg {
+	background: url(images/nav_logo225.png) no-repeat;
+	background-position: -24px 0;
+	height: 30px;
+	width: 30px;
+	padding-bottom: 20px;
+}
+
+.navr {
+	background: url(images/nav_logo225.png) no-repeat;
+	background-position: -54px 0;
+	height: 30px;
+	width: 20px;
+	padding-bottom: 10px;	
+}
+
+.navo {
+	background: url(images/nav_logo225.png) no-repeat;
+	background-position: -74px 0;
+	height: 30px;
+	width: 20px;
+	padding-bottom: 10px;
+}
+
+.navgle {
+	background: url(images/nav_logo225.png) no-repeat;
+	background-position: -94px 0;
+	height: 30px;
+	width: 80px;
+	padding-bottom: 10px;
 }
 
 
