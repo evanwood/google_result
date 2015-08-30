@@ -99,8 +99,7 @@ form {
 	overflow: hidden;
 	line-height: 58px;
 	border-bottom: 1px solid #e4e4e4;
-	
-
+	min-width: 1000px;
 }
 
 
@@ -177,8 +176,11 @@ form {
 
 
 .results {
+	position: relative;
 	margin-left: 135px;
 	font-family: Arial, sans-serif;
+	max-width: 525px;
+	border-bottom: 1px solid #e4e4e4;
 }
 
 .about {
@@ -194,6 +196,7 @@ form {
 .top-link {
 	font-size: 18px;
 	color: #1a0dab;
+	
 }
 
 .top-link:hover {
@@ -211,19 +214,40 @@ form {
 
 .site {
 	color: #006621;
-	margin: 2px 0;
+	line-height: 18px;
 	font-size: 14px;
 }
 
 .desc {
 	color: #545454;
 	font-size: 13px;
-	margin: 4px 0;
+	line-height: 18px;
 }
 
 .sublink {
 	color: #1a0dab;
 }
+
+.related {
+	color: #666;
+	font-size: 18px;
+	line-height: 45px;
+	font-weight: normal;
+}
+
+td {
+	height: 25px;
+	width: 200px;
+	vertical-align: top;
+}
+
+td a{
+	font-family: arial, sans-serif;
+	color: #1a0dab;
+	font-size: 13px;
+	font-weight: normal;
+}
+
 
 
 
